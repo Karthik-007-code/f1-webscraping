@@ -19,6 +19,8 @@ def clean_transform(records):
         df = df.drop_duplicates()
     # converting points into numeric values
     df["Points"]=pd.to_numeric(df["Points"])
+    df.to_csv(config.file_path_processed, index=False)
+    print(f"Processed data saved to {config.file_path_processed}")
     return df
     
 

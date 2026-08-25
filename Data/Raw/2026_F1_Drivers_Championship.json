@@ -1,0 +1,163 @@
+[
+    {
+        "Pos": "1",
+        "Driver": "Kimi Antonelli",
+        "Nationality": "ITA",
+        "Team": "Mercedes",
+        "Points": "242"
+    },
+    {
+        "Pos": "2",
+        "Driver": "George Russell",
+        "Nationality": "GBR",
+        "Team": "Mercedes",
+        "Points": "183"
+    },
+    {
+        "Pos": "3",
+        "Driver": "Lewis Hamilton",
+        "Nationality": "GBR",
+        "Team": "Ferrari",
+        "Points": "183"
+    },
+    {
+        "Pos": "4",
+        "Driver": "Lando Norris",
+        "Nationality": "GBR",
+        "Team": "McLaren",
+        "Points": "159"
+    },
+    {
+        "Pos": "5",
+        "Driver": "Charles Leclerc",
+        "Nationality": "MON",
+        "Team": "Ferrari",
+        "Points": "155"
+    },
+    {
+        "Pos": "6",
+        "Driver": "Max Verstappen",
+        "Nationality": "NED",
+        "Team": "Red Bull Racing",
+        "Points": "112"
+    },
+    {
+        "Pos": "7",
+        "Driver": "Oscar Piastri",
+        "Nationality": "AUS",
+        "Team": "McLaren",
+        "Points": "104"
+    },
+    {
+        "Pos": "8",
+        "Driver": "Isack Hadjar",
+        "Nationality": "FRA",
+        "Team": "Red Bull Racing",
+        "Points": "68"
+    },
+    {
+        "Pos": "9",
+        "Driver": "Liam Lawson",
+        "Nationality": "NZL",
+        "Team": "Red Bull Racing",
+        "Points": "49"
+    },
+    {
+        "Pos": "10",
+        "Driver": "Pierre Gasly",
+        "Nationality": "FRA",
+        "Team": "Alpine",
+        "Points": "44"
+    },
+    {
+        "Pos": "11",
+        "Driver": "Arvid Lindblad",
+        "Nationality": "GBR",
+        "Team": "Racing Bulls",
+        "Points": "23"
+    },
+    {
+        "Pos": "12",
+        "Driver": "Franco Colapinto",
+        "Nationality": "ARG",
+        "Team": "Alpine",
+        "Points": "19"
+    },
+    {
+        "Pos": "13",
+        "Driver": "Oliver Bearman",
+        "Nationality": "GBR",
+        "Team": "Haas F1 Team",
+        "Points": "18"
+    },
+    {
+        "Pos": "14",
+        "Driver": "Gabriel Bortoleto",
+        "Nationality": "BRA",
+        "Team": "Audi",
+        "Points": "10"
+    },
+    {
+        "Pos": "15",
+        "Driver": "Nico Hulkenberg",
+        "Nationality": "GER",
+        "Team": "Audi",
+        "Points": "6"
+    },
+    {
+        "Pos": "16",
+        "Driver": "Carlos Sainz",
+        "Nationality": "ESP",
+        "Team": "Williams",
+        "Points": "6"
+    },
+    {
+        "Pos": "17",
+        "Driver": "Alexander Albon",
+        "Nationality": "THA",
+        "Team": "Williams",
+        "Points": "5"
+    },
+    {
+        "Pos": "18",
+        "Driver": "Esteban Ocon",
+        "Nationality": "FRA",
+        "Team": "Haas F1 Team",
+        "Points": "3"
+    },
+    {
+        "Pos": "19",
+        "Driver": "Fernando Alonso",
+        "Nationality": "ESP",
+        "Team": "Aston Martin",
+        "Points": "3"
+    },
+    {
+        "Pos": "20",
+        "Driver": "Yuki Tsunoda",
+        "Nationality": "JPN",
+        "Team": "Racing Bulls",
+        "Points": "0"
+    },
+    {
+        "Pos": "21",
+        "Driver": "Lance Stroll",
+        "Nationality": "CAN",
+        "Team": "Aston Martin",
+        "Points": "0"
+    },
+    {
+        "Pos": "22",
+        "Driver": "Valtteri Bottas",
+        "Nationality": "FIN",
+        "Team": "Cadillac",
+        "Points": "0"
+    },
+    {
+        "Pos": "23",
+        "Driver": "Sergio Perez",
+        "Nationality": "MEX",
+        "Team": "Cadillac",
+        "Points": "0"
+    }
+]

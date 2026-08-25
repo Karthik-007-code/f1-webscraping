@@ -1,6 +1,9 @@
 #we take the html content and make then into raw data by using a module caled beautiful-soup
 import re
+import json
+import os
 from bs4 import BeautifulSoup
+from . import config
 
 def extrc_rec(html_doc):
     if not len(html_doc):
@@ -41,6 +44,13 @@ def extrc_rec(html_doc):
                 "Team": team,
                 "Points": pts
             })
+
+    # save raw records to JSON
+    os.makedirs(os.path.dirname(config.file_path_raw), exist_ok=True)
+    with open(config.file_path_raw, "w") as f:
+        json.dump(records, f, indent=4)
+    print(f"Raw data saved to {config.file_path_raw}")
+
     return records
 
      
