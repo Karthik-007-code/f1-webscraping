@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 def extrc_rec(html_doc):
-    if not html_doc:
+    if not len(html_doc):
         print("No data was Extracted")
         return []
         
@@ -19,16 +19,20 @@ def extrc_rec(html_doc):
     
     for r in rows:
         cols = r.find_all("td")
-        if len(cols) >= 6:
-            pos = cols[1].text.strip()
+        
+        if len(cols) == 5:
+           
+            # print(cols[0].text.strip())
+            pos = cols[0].text.strip()
+
             
             # Clean non-breaking spaces and remove trailing 3-letter driver code
-            raw_driver = cols[2].text.replace('\xa0', ' ').strip()
+            raw_driver = cols[1].text.replace('\xa0', ' ').strip()
             clean_driver = re.sub(r'[A-Z]{3}$', '', raw_driver).strip()
             
-            nation = cols[3].text.strip()
-            team = cols[4].text.strip()
-            pts = cols[5].text.strip()
+            nation = cols[2].text.strip()
+            team = cols[3].text.strip()
+            pts = cols[4].text.strip()
             
             records.append({
                 "Pos": pos,
@@ -37,7 +41,6 @@ def extrc_rec(html_doc):
                 "Team": team,
                 "Points": pts
             })
-            
     return records
 
      
