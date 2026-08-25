@@ -3,9 +3,9 @@
 import requests
 def geting_req(F1_url,header):
     try:
-        response=requests.get(F1_url,header)
+        response=requests.get(F1_url, headers=header)
         print(f"Succesfully got the response(HTML page) in response.content") # in response.content we can get the whole html page 
-        return response.content
+        return response.text
     except Exception as e:
         print(e)
         return e
