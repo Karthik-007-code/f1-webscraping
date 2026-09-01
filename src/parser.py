@@ -5,7 +5,7 @@ import os
 from bs4 import BeautifulSoup
 from . import config
 
-def extrc_rec(html_doc):
+def extrc_rec(html_doc, year):
     if not len(html_doc):
         print("No data was Extracted")
         return []
@@ -46,10 +46,11 @@ def extrc_rec(html_doc):
             })
 
     # save raw records to JSON
-    os.makedirs(os.path.dirname(config.file_path_raw), exist_ok=True)
-    with open(config.file_path_raw, "w") as f:
+    raw_path = config.get_raw_path(year)
+    os.makedirs(os.path.dirname(raw_path), exist_ok=True)
+    with open(raw_path, "w") as f:
         json.dump(records, f, indent=4)
-    print(f"Raw data saved to {config.file_path_raw}")
+    print(f"Raw data saved to {raw_path}")
 
     return records
 

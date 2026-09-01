@@ -1,0 +1,156 @@
+[
+    {
+        "Pos": "1",
+        "Driver": "Max Verstappen",
+        "Nationality": "NED",
+        "Team": "Red Bull Racing Honda RBPT",
+        "Points": "575"
+    },
+    {
+        "Pos": "2",
+        "Driver": "Sergio Perez",
+        "Nationality": "MEX",
+        "Team": "Red Bull Racing Honda RBPT",
+        "Points": "285"
+    },
+    {
+        "Pos": "3",
+        "Driver": "Lewis Hamilton",
+        "Nationality": "GBR",
+        "Team": "Mercedes",
+        "Points": "234"
+    },
+    {
+        "Pos": "4",
+        "Driver": "Fernando Alonso",
+        "Nationality": "ESP",
+        "Team": "Aston Martin Aramco Mercedes",
+        "Points": "206"
+    },
+    {
+        "Pos": "5",
+        "Driver": "Charles Leclerc",
+        "Nationality": "MON",
+        "Team": "Ferrari",
+        "Points": "206"
+    },
+    {
+        "Pos": "6",
+        "Driver": "Lando Norris",
+        "Nationality": "GBR",
+        "Team": "McLaren Mercedes",
+        "Points": "205"
+    },
+    {
+        "Pos": "7",
+        "Driver": "Carlos Sainz",
+        "Nationality": "ESP",
+        "Team": "Ferrari",
+        "Points": "200"
+    },
+    {
+        "Pos": "8",
+        "Driver": "George Russell",
+        "Nationality": "GBR",
+        "Team": "Mercedes",
+        "Points": "175"
+    },
+    {
+        "Pos": "9",
+        "Driver": "Oscar Piastri",
+        "Nationality": "AUS",
+        "Team": "McLaren Mercedes",
+        "Points": "97"
+    },
+    {
+        "Pos": "10",
+        "Driver": "Lance Stroll",
+        "Nationality": "CAN",
+        "Team": "Aston Martin Aramco Mercedes",
+        "Points": "74"
+    },
+    {
+        "Pos": "11",
+        "Driver": "Pierre Gasly",
+        "Nationality": "FRA",
+        "Team": "Alpine Renault",
+        "Points": "62"
+    },
+    {
+        "Pos": "12",
+        "Driver": "Esteban Ocon",
+        "Nationality": "FRA",
+        "Team": "Alpine Renault",
+        "Points": "58"
+    },
+    {
+        "Pos": "13",
+        "Driver": "Alexander Albon",
+        "Nationality": "THA",
+        "Team": "Williams Mercedes",
+        "Points": "27"
+    },
+    {
+        "Pos": "14",
+        "Driver": "Yuki Tsunoda",
+        "Nationality": "JPN",
+        "Team": "AlphaTauri Honda RBPT",
+        "Points": "17"
+    },
+    {
+        "Pos": "15",
+        "Driver": "Valtteri Bottas",
+        "Nationality": "FIN",
+        "Team": "Alfa Romeo Ferrari",
+        "Points": "10"
+    },
+    {
+        "Pos": "16",
+        "Driver": "Nico Hulkenberg",
+        "Nationality": "GER",
+        "Team": "Haas Ferrari",
+        "Points": "9"
+    },
+    {
+        "Pos": "17",
+        "Driver": "Daniel Ricciardo",
+        "Nationality": "AUS",
+        "Team": "AlphaTauri Honda RBPT",
+        "Points": "6"
+    },
+    {
+        "Pos": "18",
+        "Driver": "Zhou Guanyu",
+        "Nationality": "CHN",
+        "Team": "Alfa Romeo Ferrari",
+        "Points": "6"
+    },
+    {
+        "Pos": "19",
+        "Driver": "Kevin Magnussen",
+        "Nationality": "DEN",
+        "Team": "Haas Ferrari",
+        "Points": "3"
+    },
+    {
+        "Pos": "20",
+        "Driver": "Liam Lawson",
+        "Nationality": "NZL",
+        "Team": "AlphaTauri Honda RBPT",
+        "Points": "2"
+    },
+    {
+        "Pos": "21",
+        "Driver": "Logan Sargeant",
+        "Nationality": "USA",
+        "Team": "Williams Mercedes",
+        "Points": "1"
+    },
+    {
+        "Pos": "22",
+        "Driver": "Nyck De Vries",
+        "Nationality": "NED",
+        "Team": "AlphaTauri Honda RBPT",
+        "Points": "0"
+    }
+]

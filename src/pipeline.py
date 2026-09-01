@@ -5,7 +5,7 @@ from . import parser
 from . import scrapper
 from . import config
 
-def clean_transform(records):
+def clean_transform(records, year):
     df=pd.DataFrame(records)
     # here cleaning process
     null_count = df.isnull().sum()
@@ -19,8 +19,11 @@ def clean_transform(records):
         df = df.drop_duplicates()
     # converting points into numeric values
     df["Points"]=pd.to_numeric(df["Points"])
-    df.to_csv(config.file_path_processed, index=False)
-    print(f"Processed data saved to {config.file_path_processed}")
+    processed_path = config.get_processed_path(year)
+    import os
+    os.makedirs(os.path.dirname(processed_path), exist_ok=True)
+    df.to_csv(processed_path, index=False)
+    print(f"Processed data saved to {processed_path}")
     return df
     
 
